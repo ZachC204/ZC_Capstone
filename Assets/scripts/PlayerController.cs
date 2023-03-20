@@ -6,9 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     // Private Variables
     public float horizontalInput;
-    public float speed = 2.0f;
-    public float xRange = 20.0f;
-
+    public float speed;
+    public float xRange;
+    public bool gameOver; 
     public GameObject projectilePrefab;
 
     // Start is called before the first frame update
@@ -32,11 +32,19 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Keypad8))
         {
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
         
     }
-}
 
+     private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Game Over!");
+            gameOver = true;
+        }
+    }
+}
