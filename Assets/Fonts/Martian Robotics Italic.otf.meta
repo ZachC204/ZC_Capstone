@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 0fb727fe543c80a4f8b445ce8c7bd4f1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Martian Robotics
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b381eba8c58da5046a4fca633199deef, type: 3}
+  - {fileID: 12800000, guid: c9c594580b070414d92510b7ca91728e, type: 3}
+  - {fileID: 12800000, guid: 0a2dd83c4e9004b47b8c55b6e213c8dd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
