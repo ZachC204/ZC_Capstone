@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/batandsup.unity
+    guid: 6acdfeb9337d0314da80f01c410956a0
+  - enabled: 1
+    path: Assets/Scenes/batman.unity
+    guid: 8f13e64aa73ea724fa9598d6a08ff9e7
+  - enabled: 1
+    path: Assets/Scenes/batgame.unity
+    guid: 391ba696feb02264fb2a1ff0b72addb3
+  - enabled: 1
+    path: Assets/Scenes/batEnd.unity
+    guid: ed58678e93fbf62449e2f5dcf4822da9
+  - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: f4265b10fd2b1c447a95927b22efabe3
+  - enabled: 1
+    path: Assets/Scenes/kryptonite.unity
+    guid: a74900393b6962d4d9cb24694ef4b8a1
+  - enabled: 1
+    path: Assets/Scenes/control.unity
+    guid: 2f353e82cb6c4f14793d44d2bc1a069d
   - enabled: 1
     path: Assets/Scenes/superman.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
