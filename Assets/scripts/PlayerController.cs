@@ -24,9 +24,9 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > xRange)
+        if (transform.position.x > 108)
         {
-            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+            transform.position = new Vector3(108, transform.position.y, transform.position.z);
         }
 
         horizontalInput = Input.GetAxis("Horizontal");

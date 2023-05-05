@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/death.unity
     guid: df11dad8890d4bd4eba21b37fec36a4f
+  - enabled: 1
+    path: Assets/Scenes/Batmobile.unity
+    guid: 121b3124271a4ad45bd4edc26770e252
+  - enabled: 1
+    path: Assets/Scenes/BatmobileEnd.unity
+    guid: 2a27175f8ceaa674eade735ef40c134c
   m_configObjects: {}
